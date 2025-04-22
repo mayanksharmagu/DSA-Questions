@@ -6,8 +6,6 @@
 // Keep track of the global maximum while checking.
 
 
-import java.util.*;
-
 class MaxXOR {
     static class TrieNode {
         TrieNode[] children = new TrieNode[2]; // 0 and 1
